@@ -1,0 +1,119 @@
+*{
+    font-family: "Magra", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #5f27cd;
+    color: #ecf8f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+form{
+    background-color: #5f27cd;
+    text-align: center;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#carrinho {
+    max-width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#lupa {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+#procurar-produto {
+    height: 40px;
+    width: 320px;
+}
+
+section .container {
+    margin-top: 40px;
+}
+
+p, h2 {
+    margin-left: 40px;
+}
+
+li {
+    margin-left: 8px;
+    margin-top: 40px;
+    display: inline-block;
+    max-width: 100%;
+    list-style: none;
+    position: relative;
+    max-height: 220px;
+    overflow-y: hidden;
+}
+
+li img {
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    display: flex;
+}
+
+.produtos {
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.produtos img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.produtos p {
+    margin-right: 32px;
+}
+
+.produtos button {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.container img {
+    height: 564px;
+    width: 846px;
+
+}
